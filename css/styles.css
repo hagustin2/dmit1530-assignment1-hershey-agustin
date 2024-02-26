@@ -1,0 +1,537 @@
+/* Utility Classes */
+.container {
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+/* Typography & Universal Styles */
+body {
+    color: #000000;
+    font-family: 'inter', sans-serif;
+}
+.home {
+    text-align: center;
+}
+.banner h1 {
+    font-size: 1.83rem;
+    line-height: 3.19rem;
+    font-weight: 300;
+    text-align: center;
+}
+.banner p {
+    font-size: 0.92rem;
+    line-height: 1.5rem;
+    padding: 2.4rem 0 1.2rem 0;
+}
+.home .container > div {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.resources-options {
+    width: 100%;
+}
+.services-options div,
+.resources-options div {
+    font-weight: 700;
+    font-size: 2.41rem;
+}
+.home h2 {
+    font-size: 1.81rem;
+    line-height: 3.19rem;
+    font-weight: 400;
+}
+.home .container p {
+    font-size: 0.93rem;
+    line-height: 1.5rem;
+}
+.home .container p {
+    padding: 2.4rem 0 1.37rem 0;
+}
+.home .services-options p {
+    padding: 1.6rem 0 3.2rem 0;
+}
+.home h3 {
+    font-size: 1.15rem;
+    line-height: 1.76rem;
+}
+.home div.resources-options ul li {
+    text-align: left;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.93rem;
+    font-weight: 400;
+}
+.home section:nth-of-type(3) h2 {
+    font-size: 1.76rem;
+}
+.home section:nth-of-type(3) h2 {
+    font-size: 1.74rem;
+}
+.home section:nth-of-type(3) p {
+    font-size: 0.92rem;
+}
+.home section:nth-of-type(4) a {
+    background-color: #111111;
+    color: #EDEDED;
+    padding:1.19rem 1rem;
+    border-radius: 0.38rem;
+    font-size: 0.96rem;
+    text-decoration: none;
+} 
+.home section:nth-of-type(4) a:hover {
+    color: #111111;
+}
+.gallery h1 {
+    font-size: 1.88rem;
+    padding: 3.76rem 0 1.76rem 0; 
+    text-align: center;
+}
+.gallery h2 {
+    font-size: 1.82rem;
+    padding:2.92rem 0 2rem 0;
+    text-align: left;
+}
+.gallery h1,
+.gallery h2 {
+    line-height: 3.19rem;
+    font-weight: 400;  
+}
+.gallery p {
+    font-size: 0.93rem;
+    line-height: 1.5rem;
+}
+.gallery .gallery-flex:nth-of-type(5) p, 
+.gallery .gallery-flex:nth-of-type(6) p {
+    padding-bottom: 1.4rem;
+}
+.gallery h2:nth-of-type(3) {
+    font-size: 1.79rem ;
+    text-align: center;
+}
+.gallery .gallery-container:nth-of-type(2) p{
+    font-size: 1.84rem;
+    line-height: 3.19rem;
+    text-align: center;
+}
+.gallery .gallery-container:nth-of-type(3){
+    background-color:#111111;
+    color:#EDEDED;
+    font-size: 0.94rem;
+    line-height: 1.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.gallery aside {
+    text-align: left;
+    font-size: 1.81rem;
+    line-height: 3.19rem;
+}
+
+/* Navigation */
+header nav {
+    background-color: #111111;
+    color: #EDEDED;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;    
+}
+
+.resources-options ul {
+    margin: 1.6rem 0 1.2rem 0;
+}
+
+footer ul {
+    margin: unset;
+}
+
+.flex img {
+    padding-bottom: 1rem;
+}
+
+ul.flex {
+    gap: 1.98rem;
+}
+
+nav > div > ul > li > a {
+    text-decoration: none;
+    font-size: 0.96rem;
+    line-height: 1.5;
+    color: #EDEDED;
+}
+nav > div > ul > li > a:hover {
+    color: #111111;
+}
+
+/* Banner */
+.banner {
+    background-color: #EDEDED;    
+    padding:  4.16rem 2rem 0.06rem 2rem;
+    text-align: center;
+}
+.banner a {
+    background-color: #111111;
+    text-decoration: none;
+    padding: 1.2rem 1rem;
+    border-radius: 0.38rem;
+    color: #EDEDED;  
+
+}
+.banner a:hover {
+    color: #111111;
+}
+.banner-img {
+    background: url('../img/small/building-exterior-mobile.webp') center / cover no-repeat;
+    border-radius: 0.5rem;
+    min-height: 9.56rem;
+    margin: 2rem 0 2.38rem 0;
+}   
+
+/* main */
+.home .services {
+    padding: 3.75rem 2rem 0 2rem;
+    background-color: #F5F5F5;
+}
+.home .resources {
+    padding: 3.75rem 2rem 2.4rem 2rem;
+    background-color: #dedede;
+}
+.home .img-tourist {
+    background: url('../img/small/tourist-and-building-mobile.webp') center / cover no-repeat;
+}
+.home .img-windows {
+    background: url('../img/small/windows-mobile.webp') center / cover no-repeat;
+}
+.home .img-tourist,
+.home .img-windows {
+    min-height: 13.56rem;
+    border-radius: 0.5rem;
+}
+.resources-array {
+    display: flex;
+    flex-wrap: wrap;
+}
+.resources-options div > div {
+    padding-top: 1.17rem; 
+}
+.home section:nth-of-type(3) {
+    background-color: #111111;
+    color: #EDEDED;
+    padding: 4.13rem 2rem 3rem 2rem;
+}
+.home section:nth-of-type(3) p:nth-of-type(2) {
+    padding-top: 0;
+    color: #A4A4A4;
+}
+.home section:nth-of-type(4) {
+    background-color: #EDEDED;
+    padding: 2rem;
+}
+.home section:nth-of-type(4) .container div{
+    background-color: #FFFFFF;
+    padding: 3.65rem 3.26rem 5rem 3.26rem;
+}
+/*Gallery - 2nd page*/
+body .gallery {
+    background-color: #F5F5F5;
+    margin:0;
+}
+.gallery .gallery-container {
+    padding: 0 2rem;
+}
+.gallery .gallery-container:nth-of-type(1){
+    background-color: #EDEDED;
+}
+.gallery .gallery-container:nth-of-type(2){
+    background-color:#F5F5F5;
+    padding: 4.54rem 2.72rem 4.56rem 2.72rem;
+}  
+.gallery .img-hotel-facade {
+    background: url('../img/small/hotel-facade-mobile.webp') center / cover no-repeat;
+    min-height: 9.75rem;
+}
+.gallery .img-staircase {
+    background: url('../img/small/staircase-mobile.webp') center / cover no-repeat;
+    min-height: 11.8rem;
+}
+.gallery .img-angular-roof {
+    background: url('../img/small/angular-roof-mobile.webp') center / cover no-repeat;
+    min-height: 31.69rem;
+}
+.gallery .container:not(.container:nth-of-type(2)) h2 {
+    text-align: left;
+}
+.gallery p {
+    text-align: left;
+}
+.gallery .img-hotel-facade,
+.gallery .img-staircase,
+.gallery .img-angular-roof {    
+border-radius: 0.5rem;
+}
+
+/*Services - 3rd page*/
+.background-image {
+    background: url('../img/small/modern-architetcure-small.webp') center / cover no-repeat;
+    color:#111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 220px);
+}
+.services-page p {
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 4px #F5F5F5;
+    padding: 0.5rem 0;
+    font-weight: 700;
+}
+.wrapper {
+    padding: 2rem;
+}
+.btn {
+    background-color: #111111;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #F5F5F5;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+}
+.services-page a {
+    color: #dedede;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.services-page a:hover {
+    color:#111111;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111111;
+    color: #EDEDED;
+    text-align: center;
+    padding: 2rem 3.9rem 3.2rem 3.9rem;
+}
+footer .flex-nav {
+    line-height: 1.5rem;
+}
+.flex-nav:not(:nth-of-type(1)){
+    display: flex;
+    gap: 1.08rem;
+    padding-top: 1.6rem;
+    display: inline-flex;
+}
+footer p {
+    font-size: 0.92rem;
+    padding-top: 1.59rem;
+}
+.footer-links {
+    text-align: left;
+}
+.home footer h2 {
+    font-size: 0.96rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+footer a {
+    color: #EDEDED;
+    text-decoration: none;
+    font-size: 0.76rem;
+    line-height: 1.2rem;
+}
+footer a:hover {
+    color: #111111;
+}
+
+/* Media Query - tablet*/
+@media screen and (min-width: 800px) {
+    header nav {
+    padding: 2rem 4rem;
+    }
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    }
+    section .banner h1 {
+        padding: 0 9rem;
+    }
+    .banner {
+    padding: 3.76rem 2rem 2.4rem 2rem;
+    } 
+    .banner p {
+        padding: 2.4rem 8.6rem 1.2rem 8.6rem;
+    }
+    .menu img {
+        padding: 0;
+        padding-top: 1rem;
+    }
+    .menu li {
+        padding: 2.16rem 0;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .services-options {
+        flex-direction: column;
+        width: calc((100% / 2) - 2rem);
+        text-align: left;
+    }
+    .resources-options {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+    }   
+    .resources-options:first-of-type {
+        padding-bottom: 1.5rem;
+    }
+    .resources-options div {
+        width: calc((100% / 2) - 2rem);
+    }
+    .resources-options:last-of-type {
+        flex-direction: row-reverse;
+    }
+    .resources-options:first-of-type > div:first-of-type {
+        margin-right: 2rem;
+    }   
+    .resources-options:last-of-type > div:first-of-type {
+        margin-left: 2rem;
+    }
+    .home section:nth-of-type(3) {
+        padding: 2rem 8.6rem 3rem 8.6rem;
+    }
+    .home section:nth-of-type(4) {
+        padding: 2rem 8.6rem;
+    }    
+    .flex-nav-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .flex-nav:first-of-type {
+        width: 16rem;
+    }
+    .flex-nav:last-of-type {
+        padding-top: 0;
+    }
+    .banner-img {
+        background: url('../img/medium/building-exterior-medium.webp') center / cover no-repeat;
+        min-height: 20.625rem;
+    }
+    .home .img-tourist {
+        background: url('../img/medium/tourist-and-building-medium.webp') center / cover no-repeat;
+        min-height: 14.69rem;
+    }    
+    .home .img-windows {
+        background: url('../img/medium/windows-medium.webp') center / cover no-repeat;
+        min-height: 14.69rem;
+    }
+    .gallery .img-hotel-facade {
+        background: url('../img/medium/hotel-facade-medium.webp') center / cover no-repeat;
+        min-height: 10.26rem;
+    }
+    .gallery .img-staircase {
+        background: url('../img/medium/staircase-medium.webp') center / cover no-repeat;
+        min-height: 12.19rem;
+    }   
+    .gallery .img-angular-roof {
+        background: url('../img/medium/angular-roof-medium.webp') center / cover no-repeat;
+        min-height: 32.69rem;
+    }
+    .gallery-flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .gallery-flex {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+    }
+    .gallery-flex {
+        width: calc((100% / 2) - 2rem);
+        display: inline-block;
+    }
+    .gallery h2 {
+        padding: 0 0 2rem 0;
+    }
+}
+
+/* Media Query - desktop */
+@media screen and (min-width: 1300px) {
+    .container {
+        margin: auto;
+    }
+    .resources-array {
+        justify-content: space-evenly;
+    }
+    .services-options {
+        flex-direction: column;
+        width: calc((100% / 3) - 2rem);
+    }
+    .resources-options {
+        flex-direction: column;
+        width: calc((100% / 2) - 2rem);
+    }
+    .resources-options:last-of-type {
+        flex-direction:column;
+    }
+    .resources-options {
+        width: calc((100% / 2) - 2rem);
+    }
+    .resources-options div {
+        width: unset;
+    }       
+    .resources-options:first-of-type > div:first-of-type,
+    .resources-options:last-of-type > div:first-of-type {
+        margin: 0;
+    }
+    .resources-options:last-of-type div > div {
+        padding-top: 0;
+    }
+    .flex-nav:first-of-type {
+        width: 22.4rem;
+    }    
+    .banner-img {
+        background: url('../img/large/building-exterior-large.webp') center / cover no-repeat;
+        min-height: 40.31rem;
+    }
+    .home .img-tourist {
+        background: url('../img/large/tourist-and-building-large.webp') center / cover no-repeat;
+        min-height: 19.31rem;
+    }
+    .home .img-windows {
+        background: url('../img/large/windows-large.webp') center / cover no-repeat;
+        min-height: 19.31rem;
+    }
+    .gallery .img-hotel-facade {
+        background: url('../img/large/hotel-facade-large.webp') center / cover no-repeat;
+        min-height: 13.94rem;
+    }
+    .gallery .img-staircase {
+        background: url('../img/large/staircase-large.webp') center / cover no-repeat;
+        min-height: 16.81rem;
+    }
+    .gallery .img-angular-roof {
+        background: url('../img/large/angular-roof-large.webp') center / cover no-repeat;
+        min-height: 50rem;
+    }
+    .gallery-flex{
+        padding-bottom: 2rem;
+    }
+    /* 3rd page */
+    .background-image {
+    background: url('../img/large/modern-architecture-large.webp') center / cover no-repeat;
+    height: calc(100vh - 124px);
+    }
+}
